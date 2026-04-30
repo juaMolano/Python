@@ -6,7 +6,7 @@ print("BIENVENIDO A PIEDRA, PAPEL O TIJERA".center(50))
 print("=" * 50)
 
 opciones = ["piedra", "papel", "tijera"]
-
+#el while se usa para crear un bucle infinito hasta que el usuaro decida salir.
 while True:
 	print("Escribe piedra, papel o tijera (o 'salir' para terminar).")
 	usuario = input("Tu elección: ").strip().lower()
