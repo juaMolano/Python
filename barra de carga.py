@@ -8,9 +8,6 @@ print("=" * 50)
 # El programa seguirá funcionando hasta que el usuario decida salir.
 while True:
 
-    # ==============================
-    # ENTRADA DE DATOS
-    # ==============================
 
     # Solicita el tamaño total del archivo en MB
     tamaño = float(input("Ingrese el tamaño del archivo (MB): "))
