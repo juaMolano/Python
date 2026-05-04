@@ -63,16 +63,10 @@ while True:
         # Hace una pausa para simular la carga real
         time.sleep(intervalo)
 
-    # ==============================
-    # MENSAJE FINAL
-    # ==============================
 
     print(f"\n\n¡Archivo de {tamaño} MB subido con éxito!")
     print("=" * 50)
 
-    # ==============================
-    # REPETIR O SALIR
-    # ==============================
 
     repetir = input("¿Desea cargar otro archivo? (si/no): ").strip().lower()
 
