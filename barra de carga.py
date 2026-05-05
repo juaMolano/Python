@@ -73,6 +73,6 @@ while True:
     # Si escribe algo diferente de "si", termina el programa
     if repetir != "si":
         print("=" * 50)
-        print("Programa finalizado. ¡Hasta luego!".center(50))
+        print("Programa finalizado. ¡nos vemos!".center(50))
         print("=" * 50)
         break   # Rompe el while y finaliza
